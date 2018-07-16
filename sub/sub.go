@@ -8,7 +8,7 @@ import "github.com/google/go-github/github"
 import "github.com/square/go-jose"
 
 func Foo() {
-    client := github.NewClient(nil)
+    /*client := github.NewClient(nil)
 
     // list public repositories for org "github"
     opt := &github.RepositoryListByOrgOptions{Type: "public"}
@@ -33,5 +33,5 @@ func Foo() {
         panic(err)
     }
 
-    fmt.Println(object)
+    fmt.Println(object)*/
 }
