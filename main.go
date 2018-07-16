@@ -2,8 +2,6 @@ package main
 
 import "fmt"
 import "github.com/google/go-querystring/query"
-import "github.com/ntu-trial/example-go-golangdep/sub"
-import "github.com/ntu-trial/example-go-golangdep/sub2"
 
 type Options struct {
     Query   string `url:"q"`
