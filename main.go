@@ -15,7 +15,7 @@ func main() {
     v, _ := query.Values(opt)
     fmt.Println(v.Encode()) // will output: "q=foo&all=true&page=2"
 
-    sub.Foo()
+    //sub.Foo()
 
-    sub2.Bar()
+    //sub2.Bar()
 }
